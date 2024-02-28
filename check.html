@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body class="check__body">
+    <main class="check">
+        <div class="container-xl about__container">
+            <div class="check__top">
+                <p>Check Availability</p>
+                <a title="h" href="/index.html">
+                    <svg width="22px" height="22px" preserveAspectRatio="xMidYMid meet" data-bbox="26 26 148 148"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="26 26 148 148" role="presentation"
+                        aria-hidden="true">
+                        <g>
+                            <path
+                                d="M100 26c-40.9 0-74 33.1-74 74s33.1 74 74 74 74-33.1 74-74-33.1-74-74-74zm27.2 96.3c1.4 1.4 1.4 3.6 0 5s-3.6 1.4-5 0L99.9 105l-22.3 22.3c-1.4 1.4-3.6 1.4-5 0s-1.4-3.6 0-5L94.9 100 72.6 77.7c-1.4-1.4-1.4-3.6 0-5s3.6-1.4 5 0L99.9 95l22.3-22.3c1.4-1.4 3.6-1.4 5 0s1.4 3.6 0 5L104.8 100l22.4 22.3z">
+                            </path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <form class="check__inner">
+                <div class="check__content">
+                    <h1 class="check__title">Travel Details</h1>
+                    <div class="check__box">
+                        <div class="check__box_flex">
+                            <div class="check__box_content">
+                                <label for="pick">Pick Up *</label>
+                                <select id="pick">
+                                    <option>Lorem, ipsum.</option>
+                                    <option>Lorem, ipsum.</option>
+                                    <option>Lorem, ipsum.</option>
+                                    <option>Lorem, ipsum.</option>
+                                </select>
+                            </div>
+                            <div class="check__box_content">
+                                <label for="drop">Drop Off **</label>
+                                <select id="drop">
+                                    <option>Lorem, ipsum.</option>
+                                    <option>Lorem, ipsum.</option>
+                                    <option>Lorem, ipsum.</option>
+                                    <option>Lorem, ipsum.</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="check__box_flex">
+                            <div class="check__box_content">
+                                <label for="start">Start Date</label>
+                                <input type="date" id="start">
+                            </div>
+                            <div class="check__box_content">
+                                <label for="end">End Date</label>
+                                <input type="date" id="end">
+                            </div>
+                        </div>
+                        <div class="check__box_flex">
+                            <div class="check__box_content number">
+                                <label for="number">Number of Passengers *</label>
+                                <input type="number" id="number">
+                            </div>
+                            <div class="check__box_content rv">
+                                <label for="rv">RV Type</label>
+                                <select id="rv">
+                                    <option>Lorem, ipsum.</option>
+                                    <option>Lorem, ipsum.</option>
+                                    <option>Lorem, ipsum.</option>
+                                    <option>Lorem, ipsum.</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="check__content">
+                    <h1 class="check__title">Personal Details</h1>
+                    <div class="check__box">
+                        <div class="check__box_flex">
+                            <div class="check__box_content">
+                                <label for="firsname">First Name</label>
+                                <input type="text" id="firsname" required>
+                            </div>
+                            <div class="check__box_content">
+                                <label for="lastname">Last Name</label>
+                                <input type="text" id="lastname" required>
+                            </div>
+                        </div>
+                        <div class="check__box_flex">
+                            <div class="check__box_content">
+                                <label for="phone">Phone</label>
+                                <input type="text" id="phone" required>
+                            </div>
+                            <div class="check__box_content">
+                                <label for="Email">Email *</label>
+                                <input type="email" id="Email" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="check__submit" type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</html>
